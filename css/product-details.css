@@ -1,0 +1,48 @@
+.product-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.product-details{
+    padding: 3rem;   
+}
+.size-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    cursor: pointer;
+}
+.size{
+    height: 2rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BD9BBD;
+    color: #fff;
+}
+/* Products you may like */
+.you-may-also-like{
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+   
+}
+.recommended-product-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+.recommended-product{
+    width: 20rem;
+}
+.recommended-product img{
+    width: inherit;
+    margin-bottom: 2.6rem;
+}

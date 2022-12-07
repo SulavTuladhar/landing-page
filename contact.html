@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/products.css">
+     <link rel="stylesheet" href="./css/contact.css">
+
+    <title>Contact Us</title>
+</head>
+<body>
+    <!-- Nav bar -->
+    <nav>
+        <div class="nav-items">
+            <img src="./images/nav/SIERRA.svg" alt="logo" class="logo">
+            <div class="nav-controls">
+                <a href="./index.html"> Homepage </a>
+                <a href="./product-page.html"> Products </a>
+                <a href="#"> Contact </a>
+                <a href="./sitemap.html"> Sitemaps </a>
+                <img src="./images/nav/search.svg" alt="search-icon">
+            </div>
+        </div>
+    </nav>
+    <div class="main-container">
+        <p class="navigation"> <a href="./index.html"> Home </a> > Contact Us </p>
+        <div class="contact-container">
+            <br>
+            <br>
+            <h1> Contact Us </h1>
+            <br>
+            <p> Any question or remarks ? Just write us a message</p>
+            <div class="form">
+                <form>
+                    <table style="color: #000;">
+                        <tr>
+                            <td>
+                                <label for="fName">First name</label>
+                                <br>
+                                <input type="text" id="fName">
+                            </td>
+                            <td>
+                                <label for="lName">Last name</label>
+                                <br>
+                                <input type="text" id="lName">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email</label>
+                                <br>
+                                <input type="email" id="email">
+                            </td>
+                            <td>
+                                <label for="phoneNumber">Phone Number</label>
+                                <br>
+                                <input type="number" id="phoneNumber">
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <label for="">Select your inquiry type:</label>
+                    <br>
+                    <br>
+                    <input type="radio" name="inquiry" id="gInq">
+                    <label for="gInq">General Inquiry</label>
+                    &nbsp;  &nbsp; &nbsp;
+                    <input type="radio" name="inquiry" id="pInq">
+                    <label for="pInq">Product Inquiry</label>
+                    &nbsp;  &nbsp; &nbsp;
+                    <input type="radio" name="inquiry" id="aInq">
+                    <label for="aInq">Allergy Inquiry</label>
+                    <br>
+                    <br>
+                    <label for="">Select a product type:</label>
+                    <br>
+                    <br>
+                    <input type="radio" name="pType" id="sented">
+                    <label for="sented">Sented Candles</label>
+                    &nbsp;  &nbsp; &nbsp;
+                    <input type="radio" name="pType" id="unSented">
+                    <label for="unSented">Unscented Candles</label>
+                    &nbsp;  &nbsp; &nbsp;
+                    <input type="radio" name="pType" id="seasonal">
+                    <label for="seasonal">Seasonal Package</label>
+                    &nbsp;  &nbsp; &nbsp;
+                    <input type="radio" name="pType" id="refil">
+                    <label for="refil">Candle Refil</label>
+                    <br>
+                    <br>
+                    <label for="additionalMsg"> additional message</label>
+                    <br>
+                    <br>
+                    <textarea name="additionalMsg" id="additionalMsg" cols="100" rows="4"></textarea>
+                    <br>
+                    <br>
+                    <button id="btn"> Send Message </button>
+                </form>
+            </div>
+        </div>
+    </div>
+      <!-- Footer -->
+      <footer>
+        <div class="base-part">
+        <table>
+            <tr class="socials">
+               <th> 
+                    <img src="./images/footer/facebook.svg" alt="facebook"> 
+                    <img src="./images/footer/instagram.svg" alt="instagram"> 
+                    <img src="./images/footer/twitter.svg" alt="twitter"> 
+                </th>
+            </tr>
+            <tr> 
+                <th> Reach us</th>
+                <th> Company</th>
+                <th> Legal</th>
+            </tr>
+            <tr>
+                <td> <img src="./images/footer/phone.svg" alt="phone"> +1012 12212 121 </td>
+                <td> About </td>
+                <td> Privacy Policy</td>
+            </tr>
+            <tr>
+                <td> <img src="./images/footer/email.svg" alt="email">  demo@demo.com </td>
+                <td> Contact </td>
+                <td> Terms & Services </td>
+            </tr>
+            <tr>
+                <td> <img src="./images/footer/location.svg" alt="location">  Canada </td>
+                <td> Blogs </td>
+                <td> Terms of use </td>
+            </tr>
+        </table>
+
+        <div class="newsletter">
+            <h3>Join Out Newsletter </h3>
+            <span>
+                <input type="text" placeholder="Your email address">
+                <button> Subscribe </button>
+            </span>
+            <p style="color: #32363C;font-size: 13px;">Subscribe to stay in the loop on our project <br> launches, promotions and more</p>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
